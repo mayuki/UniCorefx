@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5DAB559D-6070-B548-8FD0-FD2FC1AF46C5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>4.6.2f1</UnityVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_6_2;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_6_2;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\UniCorefx\Scripts\CompatExtension.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\Shim\System\Array.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\Shim\System\SR.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\Shim\System\Threading\_Thread.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\Shim\System\_Environment.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Action.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\AggregateException.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\Concurrent\ConcurrentDictionary.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\Concurrent\ConcurrentQueue.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\Concurrent\ConcurrentStack.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\Concurrent\IProducerConsumerCollection.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\Concurrent\OrderablePartitioner.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\Concurrent\Partitioner.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\Concurrent\PartitionerStatic.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\Generic\BitHelper.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\Generic\IReadOnlyCollection.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\Generic\IReadOnlyDicitionary.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\Generic\IReadOnlyList.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\Generic\ISet.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\Generic\SortedSet.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\Generic\SortedSetDebugView.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\Hashtable.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\IStructuralComparable.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\IStructuralEquatable.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\KeyValuePairs.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Collections\StructuralComparisons.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Diagnostics\Contracts\Contracts.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Lazy.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\ResId.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Runtime\CompilerServices\ConditionalWeakTable.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Runtime\CompilerServices\FriendAccessAllowedAttribute.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Runtime\ExceptionServices\ExceptionServicesCommon.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Threading\LazyInitializer.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Threading\SpinWait.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Threading\ThreadLocal.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Threading\Volatile.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\ThrowHelper.cs" />
+    <Compile Include="Assets\UniCorefx\Scripts\System\Tuple.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>
