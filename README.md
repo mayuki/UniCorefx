@@ -10,41 +10,41 @@ CorefxやReference Sourceからコピペしてきて、Unityでも動けばい�
 ## Classes
 
 - System
-  - Action<T1, T2, T3, T4, T5, T6, T7, T8>
-  - Action<T1, T2, T3, T4, T5, T6, T7>
-  - Action<T1, T2, T3, T4, T5, T6>
-  - Action<T1, T2, T3, T4, T5>
-  - Func<T1, T2, T3, T4, T5, T6, T7, T8, TResult>
-  - Func<T1, T2, T3, T4, T5, T6, T7, TResult>
-  - Func<T1, T2, T3, T4, T5, T6, TResult>
-  - Func<T1, T2, T3, T4, T5, TResult>
-  - Lazy<T>
-  - Tuple<T1, T2, T3, T4, T5, T6, T7, TRest>
-  - Tuple<T1, T2, T3, T4, T5, T6, T7>
-  - Tuple<T1, T2, T3, T4, T5, T6>
-  - Tuple<T1, T2, T3, T4, T5>
-  - Tuple<T1, T2, T3, T4>
-  - Tuple<T1, T2, T3>
-  - Tuple<T1, T2>
-  - Tuple<T1>
+  - Action&lt;T1, T2, T3, T4, T5, T6, T7, T8>
+  - Action&lt;T1, T2, T3, T4, T5, T6, T7>
+  - Action&lt;T1, T2, T3, T4, T5, T6>
+  - Action&lt;T1, T2, T3, T4, T5>
+  - Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, TResult>
+  - Func&lt;T1, T2, T3, T4, T5, T6, T7, TResult>
+  - Func&lt;T1, T2, T3, T4, T5, T6, TResult>
+  - Func&lt;T1, T2, T3, T4, T5, TResult>
+  - Lazy&lt;T>
+  - Tuple&lt;T1, T2, T3, T4, T5, T6, T7, TRest>
+  - Tuple&lt;T1, T2, T3, T4, T5, T6, T7>
+  - Tuple&lt;T1, T2, T3, T4, T5, T6>
+  - Tuple&lt;T1, T2, T3, T4, T5>
+  - Tuple&lt;T1, T2, T3, T4>
+  - Tuple&lt;T1, T2, T3>
+  - Tuple&lt;T1, T2>
+  - Tuple&lt;T>
   - Tuple
   - Collections
     - StructualComparer
     - StructualComparisons
     - StructualEqualityComparer
     - Concurrent
-      - ConcurrentDictionary<TKey, TValue>
-      - ConcurrentQueue<T>
-      - ConcurrentStack<T>
-      - OrderablePartitioner<TSource>
+      - ConcurrentDictionary&lt;TKey, TValue>
+      - ConcurrentQueue&lt;T>
+      - ConcurrentStack&lt;T>
+      - OrderablePartitioner&lt;TSource>
       - Partitioner
     - Generic
-      - IReadOnlyCollection<T>
-      - IReadOnlyDictionary<TKey, TValue>
-      - IReadOnlyList<T>
-      - ISet<T>
+      - IReadOnlyCollection&lt;T>
+      - IReadOnlyDictionary&lt;TKey, TValue>
+      - IReadOnlyList&lt;T>
+      - ISet&lt;T>
   - Threading
-    - ThreadLocal<T>
+    - ThreadLocal&lt;T>
     - Volatile
     - SpinWait
 
